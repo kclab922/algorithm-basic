@@ -1,7 +1,7 @@
 ﻿ARRAY_LENGTH = 5  # 배열의 행과 열 크기(고정)
 
 def replaceData(numData): # numData	2차원 정수 배열
-    retData = [[0, 0, 0, 0, 0] for _ in range(5)] # 조건에 따라서 전처리된 2차원 배열
+    retData = [[0]*5 for _ in range(5)] # 조건에 따라서 전처리된 2차원 배열
 
     ###########   여기부터 코딩 (1) ---------------->
     for i in range(5):
